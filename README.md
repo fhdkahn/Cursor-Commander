@@ -4,7 +4,7 @@ Cursor Commander is a native macOS utility app that acts as an always-on-top flo
 
 ## What Problem Does This Solve?
 
-When you're developing a website using Cursor IDE and running it on localhost, you typically need to:
+When you're developing a website using Cursor IDE (chat/composer) and running it on localhost, you typically need to:
 1. Make changes in Cursor
 2. Switch to your browser to see the changes
 3. Switch back to Cursor to make more changes
@@ -12,10 +12,10 @@ When you're developing a website using Cursor IDE and running it on localhost, y
 
 This constant context switching breaks your flow and reduces productivity. **Cursor Commander** solves this by:
 - Floating on top of your browser window
-- Allowing you to send commands directly to Cursor without switching focus
+- Allowing you to send commands directly to Cursor chat without switching focus
 - Keeping you in the "flow state" while viewing your website
 
-This means you can stay in full-screen browser mode, see your website changes in real-time, and still communicate with Cursor's AI assistant without ever leaving your browser!
+This means you can stay in full-screen browser mode, see your website changes in real-time while in full control, and still communicate with Cursor's AI assistant without ever leaving your browser!
 
 ## Features
 
@@ -26,6 +26,8 @@ This means you can stay in full-screen browser mode, see your website changes in
 - Status bar icon for easy access
 - Command history for quick access to previous commands
 - Accessibility permissions management
+  
+![Screenshot 2025-03-03 at 8 00 27 PM](https://github.com/user-attachments/assets/8d18ff33-c56c-49aa-9120-197871d96cb7)
 
 ## Requirements
 
@@ -38,8 +40,9 @@ This means you can stay in full-screen browser mode, see your website changes in
 ### Option 1: Download Pre-built App
 1. Download the latest release from the [Releases page](https://github.com/fhdkahn/Cursor-Commander/releases)
 2. Move CursorCommander.app to your Applications folder
-3. Launch the app
-4. When prompted, grant Accessibility permissions in System Preferences
+3. Launch the app through X code app
+4. When prompted, grant Accessibility permissions in System Preferences by adding the app with plus icon in the Setting/Privacy & Security/accessibility and adding your launch app
+
 
 ### Option 2: Build from Source
 
