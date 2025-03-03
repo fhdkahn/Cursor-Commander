@@ -6,5 +6,22 @@
 	<true/>
 	<key>com.apple.security.files.user-selected.read-only</key>
 	<true/>
+	<key>com.apple.security.automation.apple-events</key>
+	<true/>
+	<key>com.apple.security.device.camera</key>
+	<false/>
+	<key>com.apple.security.device.microphone</key>
+	<false/>
+	<key>com.apple.security.device.usb</key>
+	<false/>
+	<key>com.apple.security.device.bluetooth</key>
+	<false/>
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<key>com.apple.security.temporary-exception.apple-events</key>
+	<array>
+		<string>com.apple.Safari</string>
+		<string>io.cursor.Cursor</string>
+	</array>
 </dict>
 </plist>

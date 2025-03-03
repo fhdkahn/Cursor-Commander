@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CursorCommander 1.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>CursorCommander.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>04A6ACA42D75C136007C8F95</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04A6ACB52D75C13A007C8F95</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04A6ACBF2D75C13B007C8F95</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
